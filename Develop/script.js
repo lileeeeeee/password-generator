@@ -15,13 +15,14 @@ var userSelection = window.prompt("Your password can contain uppercase letters, 
 if ((userSelection.includes("uppercase letters") || userSelection.includes("lowercase letters") || userSelection.includes("numbers") || userSelection.includes("symbols")  === true)) {
 window.alert("click Generate Password to see your password");
 }
-else if ((userSelection.includes("uppercase letters") && userSelection.includes("lowercase letters") && userSelection.includes("numbers") && userSelection.includes("symbols")  === true)) {
+while ((userSelection.includes("uppercase letters") === false && userSelection.includes("lowercase letters") === false && userSelection.includes("numbers") === false && userSelection.includes("symbols")  === false)) {
 var userSelection = window.prompt ("Your password must contain at least one of the following attributes: can contain uppercase letters, lowercase letters, numbers and or symbols. Please enter the values you would like to include below, separated by a comma.");
 }
 
+
 //will generate a password based on user inputs, only shows a random integer right now, is not affected by user input//
 function generatePassword () {
-  return Math.random();
+  return Math.floor(Math.random());
 }
 
 // Write password to the #password input
