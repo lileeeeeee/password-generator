@@ -5,7 +5,7 @@ An app for generating random passwords
 This is a website that will generate a random password. The password length and characters used are user selected. 
 
 ## Installation
-Website is available here: https://lileeeeeee.github.io/password-generator and looks like this:
+Website is available here: https://llangerud.github.io/password-generator and looks like this:
 ![screenshot](/Assets/passwordgeneratorscreenshot.jpg)
 
 ## Usage
